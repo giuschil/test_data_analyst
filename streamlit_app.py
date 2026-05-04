@@ -98,7 +98,7 @@ def styled_fig(fig, height=420):
 COLORS_3 = [PURPLE_MAIN, '#EC4899', '#F59E0B']
 
 # -- sidebar --
-st.sidebar.image('logo.png', width=160)
+st.sidebar.image('logo.jpg', width=160)
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Data Analyst Test**")
 st.sidebar.markdown("Giuseppe Schillaci")
