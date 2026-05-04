@@ -32,6 +32,8 @@ st.markdown(f"""
         box-shadow: 0 1px 3px rgba(0,0,0,0.08);
     }}
     h1, h2, h3 {{ color: {PURPLE_DARK} !important; }}
+    [data-testid="stMetricValue"] {{ color: {PURPLE_DARK} !important; }}
+    [data-testid="stMetricLabel"] {{ color: {GRAY_TEXT} !important; }}
     .answer-box {{
         background-color: {PURPLE_PALE}; border-left: 4px solid {PURPLE_MAIN};
         padding: 12px 18px; border-radius: 6px; margin: 10px 0; color: {GRAY_TEXT};
