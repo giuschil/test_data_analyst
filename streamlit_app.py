@@ -22,9 +22,10 @@ st.markdown(f"""
 <style>
     .stApp {{ background-color: {GRAY_LIGHT}; }}
     [data-testid="stSidebar"] {{
-        background: linear-gradient(180deg, {PURPLE_DARK} 0%, {PURPLE_MAIN} 100%);
+        background-color: #F9FAFB;
+        border-right: 2px solid {PURPLE_MAIN};
     }}
-    [data-testid="stSidebar"] * {{ color: white !important; }}
+    [data-testid="stSidebar"] * {{ color: {PURPLE_DARK} !important; }}
     .stMetric {{
         background-color: white; padding: 15px; border-radius: 10px;
         border-left: 4px solid {PURPLE_MAIN};
